@@ -1,0 +1,74 @@
+html, body {
+	height: 100%;
+}
+
+.page-content{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+}
+
+.container {
+
+	display: flex;
+	width: 1300px;
+	height: 700px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	padding: 4rem 0;
+	background-color: rgba(40, 75, 75, 0.65);
+	border-radius: 10rem;
+
+}
+
+.pagetitle {
+	font-size: 100px;
+	text-shadow: 0px 5px 5px black;
+
+}
+
+
+
+.construction {
+	width: 1100px;
+	margin-left: 90px;
+	margin-top: -60px;
+}
+
+h1 {
+
+	color: #6b9330;
+	text-shadow: 0px 5px 5px #5aa59e;
+}
+
+h3 {
+	font-size: 35px;
+	font-weight: bold;
+	font-style:italic;
+	color: #6b9330;
+	
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -5;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+
+}
